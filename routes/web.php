@@ -28,6 +28,11 @@ Route::get('/dashboard', function () {
 
 Route::get('/addEmployee', 'App\Http\Controllers\AddEmployeeController@aa');
 
+Route::view('form','addEmployee');
+Route::post('submit','App\Http\Controllers\AddEmployeeController@insert');
+
+
+
 
 
 require __DIR__.'/auth.php';
