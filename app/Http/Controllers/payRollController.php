@@ -8,15 +8,13 @@ use DB;
 
 class payRollController extends Controller
 {
-    public function aa(){
-        return view('payRoll');
-    }
 
     public function index(Request $req1){
-        $var = $req1->input('ID');
+        $month = $req1->input('month');
+        $bankAccountNo = $req1->input('bankAccountNo');
 
-        $employee = DB::select("SELECT * FROM employee WHERE ID = '$var'");
+        $employee = DB::select("update employee SET salaryStatus = '$month' WHERE bankAccountNo = 1");
         return view('payRoll',['employee'=>$employee]);
-
+        
     }
 }
