@@ -16,7 +16,7 @@
                     <input type="text" name="fullName" required>
                 <label>Email:</label>
                     <input type="email" name="email" required>
-                <label>Designation</label>
+                <label>Designation/role</label>
                 <select name="designation" class="select" required>
                     <option value=""></option>
                     <option value="Senior System Designer">Senior System Designer</option>
@@ -53,10 +53,8 @@
             </form>
         </div>
         <style type="text/css">
-            div {
-                border-radius: 5px;
+            body {
                 background-color: #f2f2f2;
-                padding: 20px;
             }
             label{
                 
