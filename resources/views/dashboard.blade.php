@@ -26,7 +26,7 @@
                                         <!--
                         Add Employee
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Add Employee</a>
+                    <a class='link' href="{{ url('/addEmployee') }}" class="p-6 bg-white border-b border-gray-200">Add Employee</a>
                                     <!--
                         Update Employee
                     --> 

@@ -21,9 +21,13 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-//changes dashboard -> welcome
-Route::get('/index', function () {
-    return view('index');
-})->middleware(['auth'])->name('index');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+
+Route::get('/addEmployee', 'App\Http\Controllers\AddEmployeeController@aa');
+
+
 
 require __DIR__.'/auth.php';
