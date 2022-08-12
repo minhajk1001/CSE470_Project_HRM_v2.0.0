@@ -25,6 +25,6 @@ class AddEmployeeController extends Controller
         $sql=array('ID'=>$ID,"fullName"=>$fullName,"email"=>$email,"designation"=>$designation,"bankAccountNo"=>$bankAccountNo,"salary"=>$salary,"salary"=>$salary,"salaryStatus"=>$salaryStatus);
         DB::table('employee')->insert($sql);
 
-        return redirect()->to('http://127.0.0.1:8000/dashboard');
+        return redirect()->to('http://127.0.0.1:8000/dashboard');  
     }
 }
