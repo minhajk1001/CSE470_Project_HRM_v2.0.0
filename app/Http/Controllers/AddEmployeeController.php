@@ -11,6 +11,7 @@ class AddEmployeeController extends Controller
     public function aa(){
         return view('addEmployee');
     }
+    
     public function insert(Request $req){
         //form into variable
         $ID = $req->input('ID');

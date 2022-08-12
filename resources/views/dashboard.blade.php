@@ -17,7 +17,7 @@
                                         <!--
                         View Employee
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">View Employee</a>
+                    <a class='link' href="{{ url('/viewEmployee') }}" class="p-6 bg-white border-b border-gray-200">View Employee</a>
                                         <!--
                         Add Employee
                     --> 

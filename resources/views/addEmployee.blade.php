@@ -16,7 +16,7 @@
                     <input type="text" name="fullName" required>
                 <label>Email:</label>
                     <input type="email" name="email" required>
-                <label>Designation:</label>
+                <label>Designation</label>
                 <select name="designation" class="select" required>
                     <option value=""></option>
                     <option value="Senior System Designer">Senior System Designer</option>
