@@ -37,7 +37,7 @@
                                     <!--
                         Payroll Manage
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Payroll Manage</a>
+                    <a class='link' href="{{ url('/payRoll') }}" class="p-6 bg-white border-b border-gray-200">Payroll Manage</a>
 
                     <style>
                         .link{

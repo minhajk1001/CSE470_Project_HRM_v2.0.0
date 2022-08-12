@@ -34,4 +34,8 @@ Route::post('submit','App\Http\Controllers\AddEmployeeController@insert');
 
 Route::get('/viewEmployee','App\Http\Controllers\viewEmployeeController@index');
 
+//Route::get('/payRoll','App\Http\Controllers\payRoll@index');
+Route::get('payRoll','App\Http\Controllers\payRoll@index');
+Route::post('whatever','App\Http\Controllers\payRoll@paySalary');
+
 require __DIR__.'/auth.php';
