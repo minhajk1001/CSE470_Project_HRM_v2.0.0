@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2022 at 09:27 PM
+-- Generation Time: Aug 13, 2022 at 01:56 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -42,24 +42,24 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`ID`, `fullName`, `email`, `designation`, `bankAccountNo`, `salary`, `salaryStatus`) VALUES
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Jan'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Jan'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Jan'),
-(555, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Jan'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 5, 'Jan'),
-(999, 'test', 'tesr@gmail.com', '.NET Developer', 1, 2, 'Jan'),
-(5888, 'test', 'tesr@gmail.com', '.NET Developer', 1, 12, 'Jul'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
+(555, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 5, 'Oct'),
+(999, 'test', 'tesr@gmail.com', '.NET Developer', 1, 2, 'Oct'),
+(5888, 'test', 'tesr@gmail.com', '.NET Developer', 1, 12, 'Oct'),
 (5555555, 'test', 'tesr@gmail.com', '.NET Developer', 2, 1000000, 'Jan'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 2, 2, 'Jan'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 2, 2, ''),
 (13432, 'test', 'tesr@gmail.com', '.NET Developer', 131, 114, 'Jan'),
-(4444, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Jan'),
+(4444, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (34, 'test', 'tesr@gmail.com', '.NET Developer', 3, 3, 'Jan'),
 (34, 'test', 'tesr@gmail.com', '.NET Developer', 3, 3, 'Jan'),
-(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Jan'),
-(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Jan'),
+(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
+(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
 (4, 'test', 'tesr@gmail.com', '.NET Developer', 2, 2, 'Jan'),
 (12345, 'test', 'tesr@gmail.com', '.NET Developer', 12, 1000000, 'Jan'),
 (123, 'test', 'tesr@gmail.com', '.NET Developer', 123, 123, 'Jan'),
