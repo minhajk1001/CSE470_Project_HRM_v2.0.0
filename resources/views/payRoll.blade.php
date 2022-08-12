@@ -20,7 +20,7 @@
                 margin: auto;
                 padding: 0;    
             }
-            input[type=number]{
+            input[type=number], select{
                 text-align: center;
                 width: 300px;
                 padding: 5px;
@@ -37,8 +37,28 @@
                 margin: 10px 2px;
                 cursor: pointer;
             }
-            in
         </style>
+
+        <form method="post" action="giveSalary">
+            @csrf
+            <label>Give Salary of Month of:</label>
+            <select name="salaryStatus" class="select" required>
+                    <option value=""></option>
+                    <option value="Jan">jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+            <button type="submit"  value ="Add Employee">Submit</button>
+        </form>
 
     <div class="container">
             
