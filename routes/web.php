@@ -37,4 +37,6 @@ Route::get('/viewEmployee','App\Http\Controllers\viewEmployeeController@index');
 Route::get('payRoll','App\Http\Controllers\payRollController@index');
 Route::post('giveSalary','App\Http\Controllers\payRollController@index');
 
+Route::get('/addJobCircular','App\Http\Controllers\addJobCircularController@index');
+
 require __DIR__.'/auth.php';

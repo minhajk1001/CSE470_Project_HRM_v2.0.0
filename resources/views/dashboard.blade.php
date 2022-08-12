@@ -33,7 +33,7 @@
                                     <!--
                         Add job Circular
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Add job Circular</a>
+                    <a class='link' href="{{ url('/addJobCircular') }}" class="p-6 bg-white border-b border-gray-200">Add job Circular</a>
                                     <!--
                         Payroll Manage
                     --> 
