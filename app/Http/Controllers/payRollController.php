@@ -13,10 +13,7 @@ class payRollController extends Controller
         $month = $req1->input('month');
         $bankAccountNo = $req1->input('bankAccountNo');
 
-        $employee = DB::select("update employee SET salaryStatus = '$month' WHERE bankAccountNo = 1");
+        $employee = DB::select("update employee SET salaryStatus = '$month' WHERE bankAccountNo = 456345");
         return view('payRoll',['employee'=>$employee]);
-
-        return redirect()->route( 'payRoll' )->with( [ 'bankAccountNo' => $bankAccountNo ] );
-
     }
 }
