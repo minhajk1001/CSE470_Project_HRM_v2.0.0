@@ -57,7 +57,7 @@
                                         <!--
                         Job Circular
                     --> 
-                        <a class='link' href="{{ url('/jobCircular') }}" class="p-6 bg-white border-b border-gray-200">Job Circular</a>
+                        <a class='link' href="{{ url('/jobCircular') }}" class="p-6 bg-white border-b border-gray-200">Download Job Circulars</a>
                                         <!--
                         Apply for job
                     --> 
