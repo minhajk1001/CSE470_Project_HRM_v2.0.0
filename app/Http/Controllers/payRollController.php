@@ -15,6 +15,8 @@ class payRollController extends Controller
 
         $employee = DB::select("update employee SET salaryStatus = '$month' WHERE bankAccountNo = 1");
         return view('payRoll',['employee'=>$employee]);
-        
+
+        return redirect()->route( 'payRoll' )->with( [ 'bankAccountNo' => $bankAccountNo ] );
+
     }
 }

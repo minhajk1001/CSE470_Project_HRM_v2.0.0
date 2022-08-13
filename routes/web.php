@@ -39,4 +39,9 @@ Route::post('giveSalary','App\Http\Controllers\payRollController@index');
 
 Route::get('/addJobCircular','App\Http\Controllers\addJobCircularController@index');
 
+
+
+Route::get('addJobCircular', [App\Http\Controllers\addJobCircularController::class, 'index']);
+Route::post('addJobCircular', [App\Http\Controllers\addJobCircularController::class, 'store'])->name('file.store');
+
 require __DIR__.'/auth.php';
