@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 13, 2022 at 01:56 AM
+-- Generation Time: Aug 13, 2022 at 07:04 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -20,6 +20,24 @@ SET time_zone = "+00:00";
 --
 -- Database: `hrm_v2.0.0_db`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `announcement`
+--
+
+CREATE TABLE `announcement` (
+  `announce` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `announcement`
+--
+
+INSERT INTO `announcement` (`announce`) VALUES
+('Hi, Welcome! thanks.'),
+('Hi, Welcome! thanks.');
 
 -- --------------------------------------------------------
 
@@ -42,24 +60,24 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`ID`, `fullName`, `email`, `designation`, `bankAccountNo`, `salary`, `salaryStatus`) VALUES
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
-(555, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
-(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 5, 'Oct'),
-(999, 'test', 'tesr@gmail.com', '.NET Developer', 1, 2, 'Oct'),
-(5888, 'test', 'tesr@gmail.com', '.NET Developer', 1, 12, 'Oct'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Dec'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Dec'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Dec'),
+(555, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Dec'),
+(1, 'test', 'tesr@gmail.com', '.NET Developer', 1, 5, 'Dec'),
+(999, 'test', 'tesr@gmail.com', '.NET Developer', 1, 2, 'Dec'),
+(5888, 'test', 'tesr@gmail.com', '.NET Developer', 1, 12, 'Dec'),
 (5555555, 'test', 'tesr@gmail.com', '.NET Developer', 2, 1000000, 'Jan'),
 (1, 'test', 'tesr@gmail.com', '.NET Developer', 2, 2, ''),
 (13432, 'test', 'tesr@gmail.com', '.NET Developer', 131, 114, 'Jan'),
-(4444, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Oct'),
+(4444, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1000000, 'Dec'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (341, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1000000, 'Jan'),
 (34, 'test', 'tesr@gmail.com', '.NET Developer', 3, 3, 'Jan'),
 (34, 'test', 'tesr@gmail.com', '.NET Developer', 3, 3, 'Jan'),
-(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
-(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Oct'),
+(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Dec'),
+(23, 'test', 'tesr@gmail.com', '.NET Developer', 1, 1, 'Dec'),
 (4, 'test', 'tesr@gmail.com', '.NET Developer', 2, 2, 'Jan'),
 (12345, 'test', 'tesr@gmail.com', '.NET Developer', 12, 1000000, 'Jan'),
 (123, 'test', 'tesr@gmail.com', '.NET Developer', 123, 123, 'Jan'),
@@ -77,7 +95,8 @@ INSERT INTO `employee` (`ID`, `fullName`, `email`, `designation`, `bankAccountNo
 (12341, 'test', 'tesr@gmail.com', '.NET Developer', 213123, 1231, 'Jan'),
 (3121, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 1231, 'Jan'),
 (12312, 'test', 'tesr@gmail.com', '.NET Developer', 12312, 123, 'Jan'),
-(1, 'test', 'tesr@gmail.com', 'Junior Software Engineer', 1, 2, 'Oct');
+(1, 'test', 'tesr@gmail.com', 'Junior Software Engineer', 1, 2, 'Dec'),
+(9999, 'test', 'tesr@gmail.com', 'Programmer', 456345, 1000000, '');
 
 -- --------------------------------------------------------
 
