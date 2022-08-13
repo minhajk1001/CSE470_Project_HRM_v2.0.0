@@ -48,7 +48,7 @@ Route::get('/jobCircular','App\Http\Controllers\jobCircularController@index');
 
 Route::get('jobCircular','App\Http\Controllers\jobCircularController@downloadCirculars');
 
-Route::get('jobApplicants','App\Http\Controllers\jobApplicantsController@index');
+Route::get('applyForJob','App\Http\Controllers\applyForJobController@index');
 
 Route::get('/announcement','App\Http\Controllers\announcementController@index');
 

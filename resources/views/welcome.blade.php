@@ -21,7 +21,7 @@
         </style>
     </head>
         <h3 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard: Human Resource Management System') }} 
+            {{ __('Welcome: Human Resource Management System') }} 
         </h3>
         <style>
             h3{
@@ -71,7 +71,7 @@
                                         <!--
                         Apply for job
                     --> 
-                        <a class='link' href="{{ url('/jobApplicants') }}" class="p-6 bg-white border-b border-gray-200">Apply for job</a>
+                        <a class='link' href="{{ url('/applyForJob') }}" class="p-6 bg-white border-b border-gray-200">Apply for job</a>
 
                     <style>
                         .link{

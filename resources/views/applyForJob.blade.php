@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Add Job Circular</title>
+        <title>Apply for job</title>
     </head>
 
     <body>
         <div class="container">
-            <h2>Add Job Circular</h2>
+            <h2>Apply for job</h2>
             <form action="{{ route('file.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <label for="inputFile">PDF/CSV Files:</label>
+                <label for="inputFile">Add Resume [PDF/CSV Files]:</label>
                 <input type="file" name="file">
                 <div>
                     <button type="submit">Upload</button>

@@ -13,7 +13,7 @@
                                         <!--
                         add announcement
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Announcement</a>
+                    <a class='link' href="{{ url('/announcement') }}" class="p-6 bg-white border-b border-gray-200">Announcement</a>
                                         <!--
                         View Employee
                     --> 
@@ -29,7 +29,7 @@
                                     <!--
                         Job Applicants
                     --> 
-                    <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Job Applicants</a>
+                    <a class='link' href="{{ url('/jobApplicants') }}" class="p-6 bg-white border-b border-gray-200">Job Applicants</a>
                                     <!--
                         Add job Circular
                     --> 
