@@ -44,4 +44,7 @@ Route::get('/addJobCircular','App\Http\Controllers\addJobCircularController@inde
 Route::get('addJobCircular', [App\Http\Controllers\addJobCircularController::class, 'index']);
 Route::post('addJobCircular', [App\Http\Controllers\addJobCircularController::class, 'store'])->name('file.store');
 
+Route::get('/jobCircular','App\Http\Controllers\jobCircularController@index');
+
+Route::get('jobCircular','App\Http\Controllers\jobCircularController@downloadCirculars');
 require __DIR__.'/auth.php';
