@@ -47,4 +47,10 @@ Route::post('addJobCircular', [App\Http\Controllers\addJobCircularController::cl
 Route::get('/jobCircular','App\Http\Controllers\jobCircularController@index');
 
 Route::get('jobCircular','App\Http\Controllers\jobCircularController@downloadCirculars');
+
+Route::get('jobApplicants','App\Http\Controllers\jobApplicantsController@index');
+
+Route::get('/announcement','App\Http\Controllers\announcementController@index');
+
+
 require __DIR__.'/auth.php';

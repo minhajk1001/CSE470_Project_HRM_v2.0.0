@@ -30,30 +30,40 @@
         </style>
 
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            
+        <style>
+            body{
+                background: #EF9A9A;
+            }
+        </style>
+        <div id="test" class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <style>
+            #test{
+                background: #f2f2f2;
+            }
+        </style>
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                     @else
-                        <a class='link2' href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-
+                        <a class='link2' href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Admin Login</a>
+                        <!--
                         @if (Route::has('register'))
                             <a class='link2' href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registration</a>
                         @endif
+        -->
                     @endauth
                     <style>
                         .link2{
                             padding: 5px;
-                            border-radius: 8px;
+                            border-radius: 3px;
                             background: skyblue;
                         }
                     </style>
                 </div>  
             @endif
           
-                <div class="p-6 bg-white border-b border-gray-200">
+                <div >
                                         <!--
                         Job Circular
                     --> 
@@ -61,7 +71,7 @@
                                         <!--
                         Apply for job
                     --> 
-                        <a class='link' href="{{ url('/dashboard') }}" class="p-6 bg-white border-b border-gray-200">Apply for job</a>
+                        <a class='link' href="{{ url('/jobApplicants') }}" class="p-6 bg-white border-b border-gray-200">Apply for job</a>
 
                     <style>
                         .link{
